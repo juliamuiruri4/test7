@@ -152,16 +152,15 @@ On the `yaml` file, scroll down to the `tools` section and delete the empty arra
 
   ![Subscription aware intelliSense](https://github.com/Azure-Samples/JS-AI-Build-a-thon/blob/assets/jsai-buildathon-assets/sub-intellisense.png?raw=true)
 
-  > [!NOTE]
-  > If the intelliSense fails, paste in the following
-  >
-  > `/subscriptions/<subscription_ID>/resourceGroups/<resource_group_name>/providers/Microsoft.MachineLearningServices/workspaces/<project_name>/connections/<bing_grounding_connection_name>`
-  >
-  > and replace the placeholders with your information:
-  >  - `subscription_ID` = Your Azure Subscription ID
-  >  - `resource_group_name` = Your Resource Group name
-  >  - `project_name` = Your Project name on AI Foundry
-  >  - `bing_grounding_connection_name` = The connection name **NOT** the bing resource name
+  If the intelliSense fails, paste in the following
+  
+  `/subscriptions/<subscription_ID>/resourceGroups/<resource_group_name>/providers/Microsoft.MachineLearningServices/workspaces/<project_name>/connections/<bing_grounding_connection_name>`
+  
+  and replace the placeholders with your information:
+   - `subscription_ID` = Your Azure Subscription ID
+   - `resource_group_name` = Your Resource Group name
+   - `project_name` = Your Project name on AI Foundry
+   - `bing_grounding_connection_name` = The connection name **NOT** the bing resource name
 
 - A Bing Grounding conenction should appear under the **Tool** section on the Agent Designer. Click on **Update Agent on Azure AI Foundry** to update your agent with the new tool configuration.
 
